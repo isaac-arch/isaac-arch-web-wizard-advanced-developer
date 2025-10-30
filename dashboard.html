@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard | isaac-arch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dashboard-body">
+
+  <nav class="navbar">
+    <h1>isaac-arch Dashboard</h1>
+    <button id="logoutBtn" class="logout-btn">Logout</button>
+  </nav>
+
+  <main class="dashboard-content">
+    <h2>Welcome back, Isaac Okotie 👋</h2>
+    <p>Explore your projects, manage your work, and grow as a Full Stack Developer.</p>
+
+    <div class="card-grid">
+      <div class="card">
+        <h3>🌐 Web Projects</h3>
+        <p>View your recent front-end and back-end builds.</p>
+        <button class="btn">View Projects</button>
+      </div>
+
+      <div class="card">
+        <h3>📊 Analytics</h3>
+        <p>Check your development stats and code performance.</p>
+        <button class="btn">View Stats</button>
+      </div>
+
+      <div class="card">
+        <h3>⚙️ Settings</h3>
+        <p>Manage your profile, password, and preferences.</p>
+        <button class="btn">Update</button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    document.getElementById("logoutBtn").addEventListener("click", () => {
+      alert("🚪 Logged out successfully!");
+      window.location.href = "index.html";
+    });
+  </script>
+
+</body>
+</html>

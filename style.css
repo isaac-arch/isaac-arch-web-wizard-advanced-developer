@@ -1,0 +1,114 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(135deg, #0047ab, #06142e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===== Form Container ===== */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.form-box {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 40px 30px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #cdd9ff;
+  margin-bottom: 20px;
+}
+
+/* ===== Input Fields ===== */
+.input-group {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 14px;
+  color: #d6e0ff;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.input-group input::placeholder {
+  color: #ccc;
+}
+
+/* ===== Button ===== */
+.btn {
+  width: 100%;
+  background: linear-gradient(135deg, #ffb400, #ff6b00);
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: linear-gradient(135deg, #ffcc33, #ff7b1a);
+  transform: scale(1.02);
+}
+
+/* ===== Bottom Text ===== */
+.bottom-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #b3c1ff;
+}
+
+.bottom-text a {
+  color: #ffb400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bottom-text a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Register Page Background ===== */
+.register-body {
+  background: linear-gradient(135deg, #0a1931, #002366);
+}
